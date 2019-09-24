@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    background: rgb(0, 0, 0);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.background {
+    margin: 0;
+    background-image: url('https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fimages.unsplash.com%2F3%2Fwww.madebyvadim.com.jpg%3Fixlib%3Drb-1.2.1%26ixid%3DeyJhcHBfaWQiOjEyMDd9%26auto%3Dformat%26fit%3Dcrop%26w%3D1061%26q%3D80');
+    /* background: rgba(0, 0, 0, 0.178); */
+    background-repeat: no-repeat;
+    opacity: .7;
+    background-size: cover;
+    padding: 0;
+    
+}
+
+header {
+    
+    color:#ffffff;
+    font-family: sans-serif;
+    font-size: 1rem;
+    height: 3.5rem;
+
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    height: 100%;
+    align-items: center;
+    max-width: 1200px;
+}
+
+nav {
+    display: flex;
+
+}
+li {
+    list-style: none;
+    margin: 0 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.selected {
+    opacity: 1;
+}
+i {
+    display: none !important;
+    border: 1px solid #ffffff32;
+    padding: .3rem 1rem;
+    border-radius: 6px;
+    margin: 0 1rem;
+}
+
+.logo {
+    margin: 0 1rem;
+    cursor: pointer;
+    margin-left: 20%;
+}
+
+.logo > h1 {
+    font-size: 1.5rem;
+    color: rgb(255, 217, 2);
+    font-family: 'Kaushan Script', cursive;
+}
+
+@media (max-width: 1200px) {
+    .container { max-width: 1000px;
+    }
+}
+
+@media (max-width: 1000px){
+    .container {
+         max-width: 800px;
+    }
+    i {
+        display: inline-block !important;
+    }
+    nav > li {
+        display: none;
+    }
+}
+
+.button {
+  position: relative;
+  left: 43vw;
+  height: 40px;
+  width: 130px;
+  border: none;
+  background: rgb(255, 196, 2);
+  color: white;
+  border-radius: 5%;
+  margin-bottom: 30%;
+}
+h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+    color: white;
+    font-size: 2.2rem;
+    text-align: center;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 3.5rem;
+    font-weight: 10000;
+    text-align: center;
+}
+
+footer {
+    background: white;
+    height: 120px;
+    width: 100vw;
+    margin: 0;
+    padding-top: 5%;
+}
+h2 {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
